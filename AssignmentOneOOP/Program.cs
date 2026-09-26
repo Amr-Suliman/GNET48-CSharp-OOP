@@ -39,6 +39,24 @@
 
             #endregion
 
+            #region Part 2 : Practical Questions
+            //Smart Delivery Management System
+
+            #region Practical 1
+
+            DeliveryAddress address1 = new DeliveryAddress("Zagazig", "El-Galaa", 15);
+
+            DeliveryAddress address2 = address1;
+
+            address2.city = "Cairo";
+
+            Console.WriteLine($"Address 1: {address1.GetFullAddress()}");
+            Console.WriteLine($"Address 2: {address2.GetFullAddress()}");
+
+            #endregion
+
+            #endregion
+
         }
     }
 }
