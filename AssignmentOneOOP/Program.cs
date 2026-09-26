@@ -44,16 +44,58 @@
 
             #region Practical 1
 
-            DeliveryAddress address1 = new DeliveryAddress("Zagazig", "El-Galaa", 15);
+            //DeliveryAddress address1 = new DeliveryAddress("Zagazig", "El-Galaa", 15);
 
-            DeliveryAddress address2 = address1;
+            //DeliveryAddress address2 = address1;
 
-            address2.city = "Cairo";
+            //address2.city = "Cairo";
 
-            Console.WriteLine($"Address 1: {address1.GetFullAddress()}");
-            Console.WriteLine($"Address 2: {address2.GetFullAddress()}");
+            //Console.WriteLine($"Address 1: {address1.GetFullAddress()}");
+            //Console.WriteLine($"Address 2: {address2.GetFullAddress()}");
 
             #endregion
+
+            #endregion
+
+            #region Practical 2
+
+            //Test Constructor 1
+            //Shipment shipment1 = new Shipment("TR001");
+
+            //shipment1.PrintShipment();
+
+            //Console.WriteLine("----------------------------");
+
+            //Test Constructor 2
+            //DeliveryAddress address = new DeliveryAddress(
+            //    "Zagazig",
+            //    "El-Galaa",
+            //    15
+            //);
+
+            //Shipment shipment2 = new Shipment(
+            //    "TR002",
+            //    "Laptop",
+            //    10,
+            //    100,
+            //    address
+            //);
+
+            //shipment2.PrintShipment();
+
+            //Console.WriteLine("----------------------------");
+
+            //Test UpdateDeliveryFee with valid value
+            //shipment2.UpdateDeliveryFee(200);
+
+            //shipment2.PrintShipment();
+
+            //Console.WriteLine("----------------------------");
+
+            //Test UpdateDeliveryFee with invalid value
+            //shipment2.UpdateDeliveryFee(-50);
+
+            //shipment2.PrintShipment();
 
             #endregion
 
